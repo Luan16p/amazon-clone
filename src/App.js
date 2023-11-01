@@ -1,10 +1,14 @@
-import './App.css';
+import Header from './components/Header';
+
+import './style/global.css';
+
+import { BrowserRouter } from 'react-router-dom';
 
 export default function App() {
   return (
-    <div className="App">
-      <h2>Amazon Clone</h2>
-    </div>
+    <BrowserRouter>
+      <Header/>
+    </BrowserRouter>
   );
 }
 

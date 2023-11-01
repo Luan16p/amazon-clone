@@ -1,0 +1,140 @@
+.p-bold { 
+    font-weight: bold;
+}
+.header-amazon {
+    width: 100%;
+}
+
+
+.navbar-top {
+    background: #131921;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-top div {
+    padding: 4px;
+}
+
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo p {
+    color: #fff;
+}
+
+.local {
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.info {
+    font-size: 14px;
+}
+
+.info-entrega {
+    color: #ccc;
+}
+
+.atualizar {
+    font-weight: bold;
+}
+
+.icon-local {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-search {
+    width: 400px;
+    display: flex;
+    border: 2px solid #febd6900;
+    padding: 0px !important;
+    border-radius: 6px;
+}
+
+.input-search .todos, .input-search .input, .input-search .search {
+    height: 38px;
+    border: 0;
+    outline: 0;
+}
+
+.todos {
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #e6e6e6;
+    padding: 10px;
+    font-size: 12px;
+    color: #555;
+    font-weight: 100;
+    gap: 5px;
+}
+
+.todos:hover {
+    background: #d4d4d4; 
+}
+
+.input-search .input {
+    outline: 0;
+    width: 90%;
+    max-width: 400px;
+    padding-left: 10px;
+}
+
+.input-search .search {
+    border-radius: 0px 3px 3px 0px;
+    width: 70px;
+    cursor: pointer;
+    background: #febd69;
+}
+
+.account, .devolucao {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.account p, .devolucao p, .carrinho p {
+    font-size: 14px;
+}
+
+.carrinho {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-weight: 100;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.navlinks-amazon {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-top {
+        gap: 10px;
+    }
+
+    .navlinks-amazon, .local {
+        display: none;
+    }
+}
