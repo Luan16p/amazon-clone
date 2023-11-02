@@ -1,10 +1,18 @@
-.p-bold { 
-    font-weight: bold;
-}
 .header-amazon {
     width: 100%;
 }
 
+.p-bold { 
+    font-weight: bold;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #ff950a;
+}
 
 .navbar-top {
     background: #131921;
@@ -13,7 +21,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .navbar-top div {
@@ -50,17 +58,14 @@
     color: #ccc;
 }
 
-.atualizar {
-    font-weight: bold;
-}
-
 .icon-local {
     font-size: 20px;
     font-weight: bold;
 }
 
 .input-search {
-    width: 400px;
+    width: 94%;
+    max-width: 400px;
     display: flex;
     border: 2px solid #febd6900;
     padding: 0px !important;
@@ -123,18 +128,89 @@
     gap: 5px;
 }
 
+.carrinho h2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.carrinho h2 span { 
+    user-select: none;
+    font-size: 10px;
+    color: #ff950a;
+    font-weight: bold;
+}
+
 .navlinks-amazon {
     display: flex;
     gap: 10px;
 }
 
+.nav-down {
+    background: #232f3e;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-@media screen and (max-width: 1200px) {
-    .navbar-top {
-        gap: 10px;
-    }
+.nav-down-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
 
-    .navlinks-amazon, .local {
-        display: none;
-    }
+.nav-down-list li {
+    border: 1px solid #ffffff00;
+    padding: 10px;
+}
+
+.nav-down-list li:hover {
+    border: 1px solid #ffffff;
+}
+
+
+.nav-down-list a {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-down-list .icon-down-gray {
+    color: #a7acb2;
+}
+
+.menu-mobile {
+    font-size: 20px;
+}
+
+#menu-responsivo {
+    display: none;
+    align-items: center;
+    height: 39px;
+}
+
+#menu-responsivo a {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-responsivo a:hover {
+    color: #ff950a;
+}
+
+.warn-amazon-nav {
+    color: #c9e2d3;
+    font-size: 90%;
+    user-select: none;
 }

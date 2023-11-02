@@ -1,0 +1,30 @@
+@media screen and (max-width: 1250px) {
+    .navbar-top {
+        gap: 10px;
+    }
+
+    .navlinks-amazon, .local {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .navbar-top {
+        flex-direction: column;
+    }
+
+    .nav-down-list {
+        display: none;
+    }
+
+
+    #menu-responsivo {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .warn-amazon-nav {
+        display: none;
+    }
+}
