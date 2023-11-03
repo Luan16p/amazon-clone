@@ -55,7 +55,7 @@ export default function Header({ contextCarrinho }) {
 
                 </div>
                 <div className="carrinho" id='carrinho'>
-                    <h2><BsMinecartLoaded /> <span>{contextCarrinho}</span></h2>
+                    <h2><BsMinecartLoaded /> <span>{contextCarrinho || 0}</span></h2>
                     <p className='p-bold link'>Carrinho</p>
                 </div>
             </nav>
